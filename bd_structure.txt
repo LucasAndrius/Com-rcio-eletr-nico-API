@@ -32,5 +32,3 @@ ads:
 - []    description
 - []    views
 - []    status
-
-
