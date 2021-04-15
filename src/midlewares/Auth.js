@@ -15,12 +15,12 @@ module.exports = {
         if(req.body.token){
             token = req.body.token;
         }
-        if(token === '') {
+        if(token == '') {
             res.json({notallowed:true});
             return;
         }
 
-        const user = await User.findeOne({
+        const user = await User.findOne({
             token
         });
 
